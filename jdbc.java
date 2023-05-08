@@ -9,7 +9,7 @@ import java.sql.Statement;
 import java.util.Scanner;
 
 public class jdbc {
-    static String url = "jdbc:mysql://<серверийн хаяг>:3306/<өгөгдлийн сангийн нэр>";
+    static String url = "jdbc:mysql://<серверийн хаяг>:3306/<өгөгдлийн сангийн нэр>"; // MySQL серверийн хаяг / өгөгдлийн сангийн нэр
     static String username = "bolormaa"; // MySQL сервер рүү нэвтрэх хэрэглэгчийн нэр
     static String password = "bolormaa-dbsys"; // MySQL сервер рүү нэвтрэх нууц үг
     static String query; // Бичих query хадгалах хувьсагч
